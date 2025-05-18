@@ -44,7 +44,7 @@ function verificarChute(){
         tentativas++;
         limparCampo();
     }
-};
+}
 
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
